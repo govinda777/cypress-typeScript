@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["ES2015", "DOM"],
+    "strict": true,
+    "types": ["jest"],
+    "noEmit": true
+  },
+  // only compile the production TS files
+  "include": ["src/*.ts"],
+  "exclude": ["src/*.test.ts"]
+}

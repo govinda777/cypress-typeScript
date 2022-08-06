@@ -2,9 +2,9 @@ import { PageObj } from "./pageObj";
 
 class LoginPageObj implements PageObj {
     
-    private usernameSelector = 'input[name="username"]';
+    private usernameSelector = 'input[id="email"]';
     private passwordSelector = 'input[type="password"]';
-    private buttonSelector = 'button';
+    private buttonSelector = '[type="submit"]';
 
     visit() {
         cy.visit('/')

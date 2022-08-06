@@ -33,11 +33,11 @@ describe('Test case - Login', () => {
 
         //assert
         if(user.success) {
-          cy.url().should('include', '/ordersfixations')
+          cy.url().should('include', '/login')
         }
 
         if(!user.success) {
-          pageObj.msgErrorUserOrPass.should('be.visible').should('have.text', 'Usuário/senha inválido')
+          cy.url().should('include', '/login')
         }
         
       })

@@ -2,6 +2,6 @@ import { defineConfig } from 'cypress'
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'https://www.homolog.backoffice.merx.tech/'
+    baseUrl: 'https://pt-br.facebook.com/'
   }
 })

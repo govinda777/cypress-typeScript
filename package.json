@@ -1,15 +1,11 @@
 {
-  "name": "cyts",
+  "name": "cypress-typescript",
   "version": "1.0.0",
   "main": "cypress.config.ts",
   "license": "MIT",
   "scripts": {
     "test": "npx cypress open",
-    "jest": "jest",
-    "cy:open": "cypress open",
-    "build": "tsc",
-    "lint": "tsc --project tsconfig.lint.json",
-    "lint:cypress": "tsc --project cypress/tsconfig.json"
+    "test-all": "npx cypress run --spec 'cypress/e2e/*.spec.cy.ts'"
   },
   "dependencies": {
     "@types/chai": "^4.1.7",

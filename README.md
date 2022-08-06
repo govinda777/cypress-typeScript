@@ -1,4 +1,4 @@
-# Merx QA
+# Cypress-Typescript
 
 Objetivo : Automação do sistema de backoffice
 

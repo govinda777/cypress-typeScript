@@ -1,6 +1,6 @@
 # Cypress-Typescript
 
-Objetivo : Automação do sistema de backoffice
+Objetivo : Projeto de exemplo para testes e2e.
 
 ## Como instalar
 

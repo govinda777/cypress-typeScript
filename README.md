@@ -10,14 +10,6 @@ npm install
 
 ```
 
-## Como testar
-
-
-```cmd
-
-npm test
-
-```
 
 ## Como executar todos os testes
 
@@ -27,6 +19,23 @@ npm test
 npm run test-all
 
 ```
+
+![](./doc/1.jpeg)
+
+## Como testar pela UI
+
+
+```cmd
+
+npm test
+
+```
+
+![](./doc/2.jpeg)
+![](./doc/3.jpeg)
+![](./doc/4.jpeg)
+![](./doc/5.jpeg)
+
 
 ## Liks
 
